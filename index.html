@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+          integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>Cairo university</p>
+        <a href="" class="hero-btn">Visit Us</a>
+    </div>
+</section>
+
+<!----course----->
+<section class="course">
+    <h1>courses we offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolor dolorum eos explicabo facere magnam,
+        magni maiores molestiae nesciunt placeat quos, sed temporibus ut velit voluptatum. Eaque iure quos
+        voluptate?</p>
+
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo id libero nemo officia quos
+                repudiandae totam. Delectus deserunt id ipsam minima temporibus? Amet atque cum deserunt inventore porro
+                quaerat quis.</p>
+        </div>
+        <div class="course-col">
+            <h3>degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo id libero nemo officia quos
+                repudiandae totam. Delectus deserunt id ipsam minima temporibus? Amet atque cum deserunt inventore porro
+                quaerat quis.</p>
+
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo id libero nemo officia quos
+                repudiandae totam. Delectus deserunt id ipsam minima temporibus? Amet atque cum deserunt inventore porro
+                quaerat quis.</p>
+        </div>
+
+    </div>
+</section>
+
+<!--campus -->
+<section class="campus">
+    <h1>Our global campus</h1>
+    <p>
+        Lorem ipsum dolor sit amet, sit tempore. Dolorum impedit nesciunt numquam possimus?
+    </p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="eduford_img/london.png" alt="campus 1 ">
+            <div class="layer">
+                <h3>London</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="eduford_img/washington.png" alt="campus 2 ">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="eduford_img/newyork.png" alt="campus 3 ">
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-----facilities----->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png" alt="library">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aut dolor eos, ex fugit.</p>
+
+        </div>
+
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png" alt="basketball">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aut dolor eos, ex fugit.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png" alt="cafeteria">
+            <h3>Tasty and Healthy Food </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aut dolor eos, ex fugit.</p>
+        </div>
+    </div>
+</section>
+
+<!--Call to action -->
+<section class="cta">
+    <h1>Enroll to our Various Courses</h1>
+    <a href="" class="hero-btn">Contact Us </a>
+</section>
+
+<!----Footer ---->
+
+<section class="footer">
+    <h4>About Us </h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus esse exercitationem explicabo id in ipsam iusto,<br> magni quo reprehenderit sed tempore vel! Amet, autem impedit incidunt labore quam voluptas?</p>
+
+    <p>Made by @Yehia</p>
+</section>
+
+</body>
+
+<!--javaScript for menu  -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.left = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.left = "-200px";
+    }
+
+</script>
+</html>
